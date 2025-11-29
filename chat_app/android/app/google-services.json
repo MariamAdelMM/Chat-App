@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "231818879705",
+    "firebase_url": "https://flutter-training-app-46c4a-default-rtdb.firebaseio.com",
+    "project_id": "flutter-training-app-46c4a",
+    "storage_bucket": "flutter-training-app-46c4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231818879705:android:e105a51e69ed9bed1e54c8",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB64PLMZhrbyKD4_1sBDX1wckzo7XU0fuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
