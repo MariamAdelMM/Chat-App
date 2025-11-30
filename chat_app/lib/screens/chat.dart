@@ -1,3 +1,4 @@
+import 'package:chat_app/widgets/new_message.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,8 @@ class ChatScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              FirebaseAuth.instance.signOut(); //removes the token from device and memory 
+              FirebaseAuth.instance
+                  .signOut(); //removes the token from device and memory
             },
             icon: Icon(
               Icons.exit_to_app,
@@ -21,7 +23,12 @@ class ChatScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: const Center(child: Text("Logged in")),
+      body: Column(
+        children: const [
+          Expanded(child: ChatScreen()),
+          NewMessages(),
+        ],
+      ),
     );
   }
 }
